@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#800080"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".Info">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="what is mental health?"
+        android:textColor="#3F1945"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:text="a person's condition with regard to their psychological and emotional well-being"
+        android:textColor="#9F9E9F" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal|center_vertical"
+        android:text='what is "mental disorder"?'
+        android:textColor="#3F1945"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="mental illnesses are health conditions involving changes in emotion, thinking or behavior (or a combination of these). mental illnesses are associated with distress and/or problems functioning in social, work or family activities. mental illness is common."
+        android:textColor="#9F9E9F" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="what are some of the most common mental disorders?"
+        android:textColor="#3F1945"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="depression, social anxiety, panic disorder, bipolar disorder, schizophrenia, post traumatic stress disorder (ptsd), anorexia nervosa"
+        android:textColor="#9F9E9F" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="how many people die because of mental disorders?"
+        android:textColor="#3F1945"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="approximately 8 million people each year with anorexia nervosa having the highest mortality rate."
+        android:textColor="#9F9E9F" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="what can we do?"
+        android:textColor="#3F1945"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="paying attention to ourselves and loved ones, doing researches, raising awareness, breaking the stigma around mental disorders, reaching out for professional help are some of the simplest things we can do."
+        android:textColor="#9F9E9F" />
+</LinearLayout>

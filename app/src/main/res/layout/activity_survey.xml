@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#800080"
+    android:orientation="vertical"
+    android:scrollbarSize="4dp"
+    tools:context=".Survey">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Overall how would you rate your mental health?"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:scrollbarSize="4dp"
+                    android:text="Excellent"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Somewhat good"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Average" />
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Somewhat poor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Poor" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="During the past two weeks how often have youfelt sad or depressed?"
+                android:textColor="#FFFFFF" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Extremely often" />
+
+                <RadioButton
+                    android:id="@+id/radioButton9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Very often" />
+
+                <RadioButton
+                    android:id="@+id/radioButton10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Somewhat often" />
+
+                <RadioButton
+                    android:id="@+id/radioButton11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Not so often" />
+
+                <RadioButton
+                    android:id="@+id/radioButton12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Not at all often" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Have you ever been diagnosed with a mental disorder before?"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButton20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Have you seen a therapist in the recent past?"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButton22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Is there a history of mental disorder in your family?"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButton24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How many hours do you sleep per day?"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Less than 3" />
+
+                <RadioButton
+                    android:id="@+id/radioButton26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3-5" />
+
+                <RadioButton
+                    android:id="@+id/radioButton27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5-7" />
+
+                <RadioButton
+                    android:id="@+id/radioButton28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7-9" />
+
+                <RadioButton
+                    android:id="@+id/radioButton29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9+" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How is your quality of sleep?"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Very bad" />
+
+                <RadioButton
+                    android:id="@+id/radioButton31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bad" />
+
+                <RadioButton
+                    android:id="@+id/radioButton32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Normal" />
+
+                <RadioButton
+                    android:id="@+id/radioButton33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Good" />
+
+                <RadioButton
+                    android:id="@+id/radioButton34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Very good" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How often do you drink?"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Extremely often" />
+
+                <RadioButton
+                    android:id="@+id/radioButton46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Often" />
+
+                <RadioButton
+                    android:id="@+id/radioButton47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Once in a while" />
+
+                <RadioButton
+                    android:id="@+id/radioButton48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I don't drink" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How often do you smoke?"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Extremely often" />
+
+                <RadioButton
+                    android:id="@+id/radioButton37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Often" />
+
+                <RadioButton
+                    android:id="@+id/radioButton43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Once in a while" />
+
+                <RadioButton
+                    android:id="@+id/radioButton44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I don't smoke" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/finish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="goSurveyFinish"
+                android:text="FINISH" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
